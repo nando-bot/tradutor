@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>TRADUTOR DevClub</title>
+</head>
+
+<body>
+  <div class="caixa-maior">
+    <textarea class="input-texto" placeholder="Digite a palavra ou texto..."></textarea>
+
+    <div class="controle">
+      <select class="idioma">
+        <option value="en">Inglês</option>
+        <option value="de">Alemão</option>
+        <option value="ja">Japonês</option>
+        <option value="es">Espanhol</option>
+        <option value="fr">Francês</option>
+        <option value="it">Italiano</option>
+        <option value="ru">Russo</option>
+        <option value="zh">Chinês</option>
+        <option value="pt">Português (BR)</option>
+      </select>
+
+      <button id="btn-traduzir" title="Traduzir">
+        <img src="img/traduzir.svg" alt="Traduzir" />
+      </button>
+
+      <button id="btn-micro" title="Ouvir / ditado">
+        <img src="img/microfone.svg" alt="Microfone" />
+      </button>
+    </div>
+
+    <div class="resultado">
+      <h3 class="titulo-traducao">Tradução</h3>
+      <p class="traducao">A Tradução aparecerá aqui...</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
